@@ -1,5 +1,5 @@
 {
-  "name": "ember-plotly-modifier",
+  "name": "@opendatafit/ember-plotly-modifier",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -33,7 +33,9 @@
   "dependencies": {
     "ember-cli-babel": "^7.26.11",
     "ember-cli-htmlbars": "^6.2.0",
-    "ember-cli-typescript": "^5.2.1"
+    "ember-cli-typescript": "^5.2.1",
+    "ember-modifier": "^4.1.0",
+    "plotly.js-dist-min": "^2.26.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",

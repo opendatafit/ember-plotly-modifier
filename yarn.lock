@@ -1748,7 +1748,7 @@
     "@types/ember__object" "*"
     "@types/rsvp" "*"
 
-"@types/ember__owner@*":
+"@types/ember__owner@*", "@types/ember__owner@^4.0.5":
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@types/ember__owner/-/ember__owner-4.0.5.tgz#f09607e3c84c77680a219680b56537b5b8afc8a0"
   integrity sha512-I7bUi/lPqAI0byumT5IDTqNWoGGgKMKZnepHikpI6+GFTJxowS3VrAh9HolN/hkdVuwcoxDGddfuPudIYVD1Tg==
@@ -1936,14 +1936,7 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
-"@types/plotly.js-basic-dist@^1.54.1":
-  version "1.54.1"
-  resolved "https://registry.yarnpkg.com/@types/plotly.js-basic-dist/-/plotly.js-basic-dist-1.54.1.tgz#bebb6d89178c5cf5a2629b142fc8c68329aa92e2"
-  integrity sha512-PAowclM1Z9nfTGqLn2KrN3dDXF2M9TalggShN/k/6jyUZTkxfgSoJ3HGReyUqjxsRBgUZnWRIPmLOA+sDsGWFA==
-  dependencies:
-    "@types/plotly.js" "*"
-
-"@types/plotly.js@*", "@types/plotly.js@^2.12.26":
+"@types/plotly.js@^2.12.26":
   version "2.12.26"
   resolved "https://registry.yarnpkg.com/@types/plotly.js/-/plotly.js-2.12.26.tgz#42c7b98a462645af56bdcb00349cf0beaae96fe1"
   integrity sha512-vP1iaVL4HHYSbugv49pwtLL6D9CSqOnQLjiRRdRYjVMEDbjIWhMgxc49BJAxSUShupiJHDp35e0WJS9SwIB2WA==
@@ -9632,11 +9625,6 @@ pkg-up@^3.1.0:
   integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
   dependencies:
     find-up "^3.0.0"
-
-plotly.js-dist-min@^2.26.0:
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/plotly.js-dist-min/-/plotly.js-dist-min-2.26.0.tgz#d0784149a40843449f0733eae2e6862a6225db9b"
-  integrity sha512-7NOlXIZBQ4NTYa/bedRq08BFpgTAMxKIEsJcrxv2KZEzEvrAzbW5U4IA9bgPt4QaCQq9D68egahoj+69jQ828A==
 
 plotly.js@^2.26.0:
   version "2.26.0"

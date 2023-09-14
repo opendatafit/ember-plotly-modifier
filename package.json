@@ -36,7 +36,8 @@
     "ember-cli-htmlbars": "^6.2.0",
     "ember-cli-typescript": "^5.2.1",
     "ember-modifier": "^4.1.0",
-    "plotly.js": "^2.26.0"
+    "plotly.js": "^2.26.0",
+    "@types/plotly.js": "^2.12.26"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -68,7 +69,6 @@
     "@types/ember__test-helpers": "^2.9.1",
     "@types/ember__utils": "^4.0.3",
     "@types/ember__owner": "^4.0.5",
-    "@types/plotly.js": "^2.12.26",
     "@types/qunit": "^2.19.6",
     "@types/rsvp": "^4.0.4",
     "@typescript-eslint/eslint-plugin": "^5.57.1",

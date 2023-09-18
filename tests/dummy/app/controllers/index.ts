@@ -4,10 +4,7 @@ import { tracked } from '@glimmer/tracking';
 
 import { Data } from 'plotly.js';
 
-import {
-  DATA_1,
-  DATA_2,
-} from '../utils/data';
+import { DATA_1, DATA_2 } from '../utils/data';
 
 export default class IndexController extends Controller {
   @tracked data: Data[];

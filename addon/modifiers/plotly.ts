@@ -50,8 +50,5 @@ export default class PlotlyModifier extends Modifier<PlotlyModifierArgs> {
     } else {
       await Plotly.react(this._plotlyDom, data, layout, config);
     }
-
-    // Plotly.newPlot(graphDiv, data, layout, config)
-    //
   }
 }

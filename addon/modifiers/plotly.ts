@@ -40,7 +40,8 @@ export default class PlotlyModifier extends Modifier<PlotlyModifierArgs> {
     }
 
     if (!data) {
-      throw new Error('No data passed to modifier');
+      console.warn('ember-plotly-modifier: no data passed to modifier');
+      return;
     }
 
     if (!this._plotlyDom) {

@@ -47,7 +47,6 @@ export default class PlotlyModifier extends Modifier<PlotlyModifierArgs> {
     if (!this._plotlyDom) {
       this._plotlyDom = element;
       await Plotly.newPlot(this._plotlyDom, data, layout, config);
-      console.log(this._plotlyDom);
     } else {
       await Plotly.react(this._plotlyDom, data, layout, config);
     }
